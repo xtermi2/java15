@@ -27,6 +27,6 @@
 -   [JEP 383:	Foreign-Memory Access API (Second Incubator)](https://openjdk.java.net/jeps/383)
     -   Introduce an API to allow Java programs to safely and efficiently access foreign memory outside of the Java heap.
 -   [JEP 384:	Records (Second Preview)](https://openjdk.java.net/jeps/384)
-    -   TODO
+    -   see `Point.java`
 -   [JEP 385:	Deprecate RMI Activation for Removal](https://openjdk.java.net/jeps/385)
-    -   TODO
+    -   Deprecate the RMI Activation mechanism for future removal. RMI Activation is an obsolete part of RMI that has been optional since Java 8. No other part of RMI will be deprecated.
