@@ -1,10 +1,11 @@
 package com.github.xtermi2.java15.jep339eddsa;
 
 import java.security.*;
+import java.security.spec.NamedParameterSpec;
 
 public class EdDSAHelper {
 
-    protected static final String ED_DSA_ALGORITHM = "Ed25519";
+    protected static final String ED_DSA_ALGORITHM = NamedParameterSpec.ED25519.getName();
 
     public KeyPair generateKeyPair() throws NoSuchAlgorithmException {
         KeyPairGenerator kpg = KeyPairGenerator.getInstance(ED_DSA_ALGORITHM);

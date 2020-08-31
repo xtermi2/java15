@@ -2,7 +2,7 @@ package com.github.xtermi2.java15.jep360sealedclasses;
 
 import org.junit.jupiter.api.Test;
 
-import static org.assertj.core.api.Assertions.*;
+import static org.assertj.core.api.Assertions.assertThat;
 
 class OptionTest {
     @Test
