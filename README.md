@@ -30,3 +30,9 @@
     -   see `Point.java`
 -   [JEP 385:	Deprecate RMI Activation for Removal](https://openjdk.java.net/jeps/385)
     -   Deprecate the RMI Activation mechanism for future removal. RMI Activation is an obsolete part of RMI that has been optional since Java 8. No other part of RMI will be deprecated.
+    
+##### Other References
+
+-   https://openjdk.java.net/projects/jdk/15/
+-   https://metebalci.com/blog/what-is-new-in-java-15/
+-   https://medium.com/better-programming/java-15-features-sealed-and-hidden-classes-pattern-matching-and-text-blocks-38f4efdc8adc
