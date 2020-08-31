@@ -32,4 +32,12 @@ class OptionTest {
         assertThat(Option.of("null").isEmpty())
                 .isFalse();
     }
+
+    @Test
+    void reflection() {
+        assertThat(Option.class.isSealed())
+                .isTrue();
+        assertThat(Option.of("null").getClass().isSealed())
+                .isFalse();
+    }
 }

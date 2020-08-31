@@ -41,6 +41,7 @@ public abstract sealed class Option<T> {
         }
     }
 
+    @SuppressWarnings({"rawtypes", "unchecked"})
     public static <T> Option<T> of(T nullable) {
         if (null == nullable) {
             return (Option<T>) None.NONE;
