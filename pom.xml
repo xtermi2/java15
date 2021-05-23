@@ -45,14 +45,14 @@
                 <version>${maven-compiler-plugin.version}</version>
                 <configuration>
                     <parameters>true</parameters>
-                    <compilerArgs>--enable-preview</compilerArgs>
+                    <compilerArgs></compilerArgs>
                 </configuration>
             </plugin>
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>${maven-surefire-plugin.version}</version>
                 <configuration>
-                    <argLine>--enable-preview -XX:+ShowCodeDetailsInExceptionMessages</argLine>
+                    <argLine>-XX:+ShowCodeDetailsInExceptionMessages</argLine>
                 </configuration>
             </plugin>
             <plugin>
